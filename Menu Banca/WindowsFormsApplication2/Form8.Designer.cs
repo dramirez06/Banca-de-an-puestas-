@@ -35,9 +35,9 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
+            this.Salir = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.comboBoxCompra1 = new System.Windows.Forms.ComboBox();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
@@ -108,15 +108,15 @@
             this.label1.Text = "Vino";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // button2
+            // Salir
             // 
-            this.button2.Location = new System.Drawing.Point(321, 303);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(59, 30);
-            this.button2.TabIndex = 19;
-            this.button2.Text = "Salir";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.Salir.Location = new System.Drawing.Point(321, 303);
+            this.Salir.Name = "Salir";
+            this.Salir.Size = new System.Drawing.Size(59, 30);
+            this.Salir.TabIndex = 19;
+            this.Salir.Text = "Salir";
+            this.Salir.UseVisualStyleBackColor = true;
+            this.Salir.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -127,19 +127,19 @@
             this.button1.Text = "Calcular";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // comboBox1
+            // comboBoxCompra1
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.comboBoxCompra1.FormattingEnabled = true;
+            this.comboBoxCompra1.Items.AddRange(new object[] {
             "",
             "10",
             "20",
             "30"});
-            this.comboBox1.Location = new System.Drawing.Point(143, 77);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(91, 24);
-            this.comboBox1.TabIndex = 20;
-            this.comboBox1.Text = "Numero";
+            this.comboBoxCompra1.Location = new System.Drawing.Point(143, 77);
+            this.comboBoxCompra1.Name = "comboBoxCompra1";
+            this.comboBoxCompra1.Size = new System.Drawing.Size(91, 24);
+            this.comboBoxCompra1.TabIndex = 20;
+            this.comboBoxCompra1.Text = "Numero";
             // 
             // comboBox2
             // 
@@ -196,8 +196,8 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.comboBox3);
             this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.comboBoxCompra1);
+            this.Controls.Add(this.Salir);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -222,9 +222,9 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button Salir;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox comboBoxCompra1;
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.ComboBox comboBox3;
         private System.Windows.Forms.Label label5;
